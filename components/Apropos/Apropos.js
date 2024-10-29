@@ -1,39 +1,47 @@
-"use client";
+// sections/Apropos.js
 
-export default function CollectionSection() {
-  return (
-    <section className="flex flex-col lg:flex-row items-center justify-center min-h-screen p-8 bg-white">
-      {/* Image Section */}
-      <div className="lg:w-1/2 p-4">
-        <img
-          src="/Image/debbyrite-collection.jpg"
-          alt="Debbyrite Collection"
-          className="w-full rounded-lg shadow-lg"
-        />
-      </div>
+export default function Apropos() {
+    return (
+        <section
+            id="Apropos"
+            className="flex flex-col items-center justify-center p-8 bg-white mt-20 shadow-2xl"
+        >
+            {/* Titre de la section */}
+            <h2 className="text-5xl font-bold md:text-5xl sm:text-2xl text-center mb-8">
+                À propos
+            </h2>
 
-      {/* Text Section */}
-      <div className="lg:w-1/2 p-6">
-        <h2 className="text-3xl font-bold text-red-600 mb-4">
-         Agadez_Sokni
-        </h2>
-        <p className="text-gray-700 mb-4">
-          Where style meets quality. We specialize in offering a curated
-          selection of outfits, shoes, and heels that cater to your unique
-          fashion sense. Our mission is to provide you with high-quality,
-          trendy pieces that make you feel confident and stylish. From everyday
-          wear to special occasions, our collections are designed to suit every
-          aspect of your life.
-        </p>
-        <p className="text-gray-700 mb-8">
-          At Debbyrite Collection, we believe in delivering exceptional value
-          and a seamless shopping experience. Join us in celebrating fashion
-          and find your next favorite look today.
-        </p>
-        <button className="bg-red-600 text-white px-6 py-3 rounded-md hover:bg-red-700 transition">
-          Learn more
-        </button>
-      </div>
-    </section>
-  );
+            {/* Flex container pour espacer les divs */}
+            <div className="flex flex-col lg:flex-row w-full items-center justify-between ms-5">
+                {/* Image Section */}
+                <div className="lg:w-1/3 p-4 flex justify-center items-center border w-full">
+                    <img
+                        src="/Image/AproposImg.jpeg"
+                        alt="Debbyrite Collection"
+                        className="h-auto w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl 2xl:max-w-4xl border-4 border-[#e1c340] shadow-lg transform transition-transform duration-300 hover:scale-105"
+                    />
+                </div>
+
+                {/* Text Section */}
+                <div className="lg:w-1/2 p-6 flex flex-col justify-center items-center lg:items-start">
+                    <div className="flex justify-center items-center mb-4 h-[100px] w-[100px]">
+                        <img
+                            alt="Votre entreprise"
+                            src="/Image/Taylor Tailor.png"
+                            className="h-full w-full object-cover rounded-full"
+                        />
+                    </div>
+
+                    <p className="text-gray-700 mb-4">
+                        <strong>À propos de Taychou Couture</strong>
+                        <br />
+                        Bienvenue chez Taychou Couture, votre destination incontournable pour la couture traditionnelle et moderne, enracinée dans la riche culture d'Agadez et du monde kel timajight (Touaregs). Nous sommes fiers de marier habilement les techniques de couture ancestrales avec des influences contemporaines pour offrir des créations uniques et élégantes. Notre entreprise est dédiée à l'art de la couture, en préservant les savoir-faire traditionnels tout en intégrant des designs modernes. Chaque pièce est méticuleusement confectionnée pour refléter l'héritage culturel kel timajight tout en répondant aux besoins de la mode actuelle.
+                    </p>
+                    <p className="text-gray-700 mb-8">
+                        Explorez notre collection et découvrez comment Taychou Couture allie l'authenticité et l'innovation pour vous offrir des vêtements qui racontent une histoire et incarnent le style et l'élégance.
+                    </p>
+                </div>
+            </div>
+        </section>
+    );
 }

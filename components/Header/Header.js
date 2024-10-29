@@ -3,11 +3,11 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Accueil', href: '#', current: false },
-  { name: 'A propos', href: '#', current: false },
-  { name: 'Nos Services', href: '#', current: false },
-  { name: 'Galerie', href: '#', current: false },
-  { name: 'Contact', href: '#', current: false },
+  { name: 'Accueil', href: '#Accueil', current: false },
+  { name: 'A propos', href: '#Apropos', current: false },
+  { name: 'Nos Services', href: '#NosService', current: false },
+  { name: 'Galerie', href: '#Galerie', current: false },
+  { name: 'Contact', href: '#Contact', current: false },
 ]
 
 function classNames(...classes) {
@@ -16,12 +16,12 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <Disclosure as="nav" className="fixed top-0 left-0 w-full bg-[#000000] p-4 z-50">
-      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+    <Disclosure as="nav" className="fixed top-0 left-0 w-full bg-stone-100 p-4 z-50 shadow-2xl">
+      <div className="mx-auto max-w-4xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-20 items-center justify-between">
           {/* Mobile menu button */}
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
-            <DisclosureButton className="group inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+            <DisclosureButton className="group inline-flex items-center justify-center rounded-md p-2 text-gray-600 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
               <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
               <span className="sr-only">Open main menu</span>
             </DisclosureButton>
@@ -32,20 +32,20 @@ export default function Example() {
             <img
               alt="Your Company"
               src="/Image/Taylor Tailor.png"
-              className="h-20 w-20 rounded-full"
+              className="h-20 w-20 rounded-full border-red"
             />
           </div>
 
           {/* Navigation desktop */}
           <div className="hidden sm:block">
-            <div className="flex space-x-6">
+            <div className="flex space-x-10">
               {navigation.map((item) => (
                 <a
                   key={item.name}
                   href={item.href}
                   aria-current={item.current ? 'page' : undefined}
                   className={classNames(
-                    item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                    item.current ? 'bg-gray-900 text-white' : 'text-gray-900 hover:bg-gray-700 hover:text-white',
                     'rounded-md px-4 py-2 text-sm font-bold'
                   )}
                 >
@@ -67,7 +67,7 @@ export default function Example() {
               href={item.href}
               aria-current={item.current ? 'page' : undefined}
               className={classNames(
-                item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                item.current ? 'bg-gray-900 text-white' : 'text-gray-700 hover:bg-gray-700 hover:text-white',
                 'block rounded-md px-3 py-2 text-base font-medium'
               )}
             >
