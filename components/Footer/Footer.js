@@ -1,4 +1,4 @@
-// components/Footer.js
+"use client"
 import React from "react";
 import "../Footer/Footer.css";
 
@@ -60,7 +60,7 @@ function Footer() {
           <ul className="space-y-4">
             <li>
               <a
-                href="mailto:votre@email.com"
+                href="mailto:agadezsoknitaychoucouture@gmail.com"
                 className="flex items-center justify-center md:justify-start hover:text-gray-400 transition-colors"
               >
                 <svg
@@ -76,7 +76,7 @@ function Footer() {
                     d="m.5 6.5l11.375 7h.25l11.375-7m0-2.5v16.5H23c-3-.5-8-.75-11-.75S4 20 1 20.5H.5V4c3-.5 8.5-.75 11.5-.75s8.5.25 11.5.75Z"
                   ></path>
                 </svg>
-                <span>votre@email.com</span>
+                <span>agadezsoknitaychoucouture@gmail.com</span>
               </a>
             </li>
             <li>

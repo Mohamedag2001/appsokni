@@ -1,4 +1,4 @@
-// sections/Apropos.js
+"use client"
 
 export default function Apropos() {
   return (
@@ -43,7 +43,7 @@ export default function Apropos() {
             créations uniques et élégantes. Notre entreprise est dédiée à
             l&apos;art de la couture, en préservant les savoir-faire
             traditionnels tout en intégrant des designs modernes. Chaque pièce
-            est méticuleusement confectionnée pour refléter l&pos;héritage culturel
+            est méticuleusement confectionnée pour refléter l&apos;héritage culturel
             kel timajight tout en répondant aux besoins de la mode actuelle.
           </p>
           <p className="text-gray-700 mb-8">

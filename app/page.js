@@ -5,8 +5,8 @@ import Apropos from "@/components/Apropos/Apropos";
 import NosService from "../components/NosService/NosService";
 import Statistique from "../components/Statistique/Statistique";
 import Galerie from "../components/Galerie/Galerie";
-import Temoignage from "../components/Temoignage/Temoignage";
 import Footer from "@/components/Footer/Footer";
+import TestimonialCarousel from "@/components/Temoignage/Temoignage";
 
 export default function Home() {
   return (
@@ -17,8 +17,8 @@ export default function Home() {
      <NosService/>
      <Statistique/>
       <Galerie/>
-      <Temoignage/>
-     <Footer/> 
+      <TestimonialCarousel/>
+     <Footer/>
     </>
   );
 }

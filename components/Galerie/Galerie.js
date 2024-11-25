@@ -1,4 +1,4 @@
-// components/Gallery.js
+"use client"
 import React from 'react';
 
 const Gallery = () => {
@@ -7,7 +7,11 @@ const Gallery = () => {
     '/Image/Galerie.png.jpeg',
     '/Image/Galerie2.png.jpeg',
     '/Image/Galerie3.png.jpeg',
-    '/Image/Galerie4.png .jpeg',
+    '/Image/Galerie4.png.jpeg',
+    '/Image/galerie5.jpg',
+    '/Image/galerie6.jpg',
+    '/Image/galerie7.jpg',
+    '/Image/galerie8.jpg',
   ];
 
   return (
