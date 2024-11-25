@@ -10,7 +10,7 @@ export default function Accueil() {
       <div className="relative text-center z-10 max-w-4xl px-4">
         <h1 className="text-2xl sm:text-7xl md:text-4xl lg:text-3xl font-bold mb-6">
           Bienvenue à notre Atelier{" "}
-          <span className="text-[#e1c340]">Agadez_Sokni_style_haute couture</span>
+          <span className="text-[#e1c340]">Taychou Couture</span>
         </h1>
         <p className="text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed">
           Des créations sur mesure pour tous vos besoins vestimentaires
