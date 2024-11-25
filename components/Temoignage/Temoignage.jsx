@@ -31,18 +31,18 @@ function TestimonialCarousel() {
     {
       testimonial: "wouah , j ai aimé votre style kel timajight.",
       userName: "Jessica ngaissiot",
-      img: "/image/jessica.jpg",
+      img: "/Image/jessica.jpg",
     },
     {
       testimonial:
         "Machallah,Taychou Couture allie l'authenticité et l elegance.",
       userName: "Mohamed Ag Aboubacrine",
-      img: "/image/mohamed.jpg",
+      img: "/Image/mohamed.jpg",
     },
     {
       testimonial: "formidable, A taychou couture, le client est roi.",
       userName: "Patrick Yems",
-      img: "/image/patrick.jpg",
+      img: "/Image/patrick.jpg",
     },
     // Ajoutez d'autres témoignages si possible
   ];
@@ -71,7 +71,7 @@ const Testimonial = ({ testimonial }) => {
           <img src={testimonial.img} alt="profile" className="w-full h-full rounded-full" />
         ) : (
           <img
-            src="/image/profile.png"
+            src="/Image/profile.png"
             alt="profile"
             className="w-full h-full"
           />

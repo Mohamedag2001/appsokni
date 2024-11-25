@@ -7,19 +7,19 @@ const data = [
     title: "Prêt-à-porter traditionnel",
     description:
       "Une collection de robes traditionnelles touaregs prêts à l'emploi, alliant tradition et confort pour un usage quotidien ou des occasions spéciales.",
-    img: "/image/galerie8.jpg",
+    img: "/Image/galerie8.jpg",
   },
   {
     title: "Retouches et personnalisation",
     description:
     "Adaptation et réparation de vêtements, avec possibilité de les personnaliser avec des motifs traditionnels.",
-    img: "/image/Galerie.png.jpeg",
+    img: "/Image/Galerie.png.jpeg",
   },
   {
     title: "Confection, stylisme et modélisme",
     description:
     "Création de vêtements uniques en alliant savoir-faire traditionnel kel timahight et techniques modernes.",
-    img: "/image/modelisme.jpg",
+    img: "/Image/modelisme.jpg",
   },
 ];
 
