@@ -1,0 +1,7 @@
+@media (max-width: 768px) {
+    .grid {
+       display: flex;
+      flex-direction: column !important;
+    }
+  }
+  
