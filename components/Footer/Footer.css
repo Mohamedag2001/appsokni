@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+    .grider {
+       display: flex;
+      flex-direction: column !important;
+      gap: 50px;
+    }
+    .texteCenter{
+        text-align: center;
+    }
+  }
+  
