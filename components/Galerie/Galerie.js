@@ -3,15 +3,6 @@ import React from "react";
 
 const Gallery = () => {
   const images = [
-    "/Image/Apropos.jpeg",
-    "/Image/Galerie.png.jpeg",
-    "/Image/Galerie2.png.jpeg",
-    "/Image/Galerie3.png.jpeg",
-    "/Image/Galerie4.png.jpeg",
-    "/Image/galerie5.jpg",
-    "/Image/galerie6.jpg",
-    "/Image/galerie7.jpg",
-    "/Image/galerie8.jpg",
     "/Image/galerie9.jpg",
     "/Image/galerie10.jpg",
     "/Image/galerie11.jpg",
@@ -21,6 +12,15 @@ const Gallery = () => {
     "/Image/galerie15.jpg",
     "/Image/galerie16.jpg",
     "/Image/galerie17.jpg",
+    "/Image/Apropos.jpeg",
+    "/Image/Galerie.png.jpeg",
+    "/Image/Galerie2.png.jpeg",
+    "/Image/Galerie3.png.jpeg",
+    "/Image/Galerie4.png.jpeg",
+    "/Image/galerie5.jpg",
+    "/Image/galerie6.jpg",
+    "/Image/galerie7.jpg",
+    "/Image/galerie8.jpg",
 
   ];
 
