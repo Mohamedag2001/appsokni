@@ -13,7 +13,7 @@ const data = [
     title: "Retouches et personnalisation",
     description:
     "Adaptation et réparation de vêtements, avec possibilité de les personnaliser avec des motifs traditionnels.",
-    img: "/Image/Galerie9.jpeg",
+    img: "/Image/Galerie9.jpg",
   },
   {
     title: "Confection, stylisme et modélisme",
