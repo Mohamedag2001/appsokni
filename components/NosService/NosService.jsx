@@ -117,14 +117,13 @@ export default Services;
 const SingleService = ({ title, description, image = "" }) => {
   return (
     <div className="bg-white shadow-2xl rounded-lg min-h-64 flex flex-col justify-around">
-     <div className="h-auto">
-  <img
-    src={image}
-    className="w-full object-cover"
-    alt=""
-  />
-</div>
-
+      <div className="h-64">
+        <img
+          src={image}
+          className="h-full w-full object-cover"
+          alt=""
+        />
+      </div>
       <div className="p-6">
         <div className="flex items-center justify-center">
           <svg
