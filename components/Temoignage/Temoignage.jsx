@@ -44,6 +44,11 @@ function TestimonialCarousel() {
       userName: "Patrick Yems",
       img: "/Image/patrick.jpg",
     },
+    {
+      testimonial: "Taychou, tu es la meilleure,Ton entreprise est un modèle de créativité et d originalité..",
+      userName: "Marie-Christine Roussel-Dupuy ",
+      img: "/Image/Marie.jpg",
+    },
     // Ajoutez d'autres témoignages si possible
   ];
 
