@@ -16,7 +16,7 @@ const Gallery = () => {
     "/Image/Galerie.png.jpeg",
   ];
 
-  // Lien WhatsApp de base (à personnaliser avec votre numéro WhatsApp)
+  // Lien WhatsApp de base
   const whatsappLink = "https://wa.me/22790096530?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9(e)%20par%20cette%20oeuvre.";
 
   return (
@@ -38,7 +38,7 @@ const Gallery = () => {
               href={whatsappLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="absolute bottom-2 left-1/2 transform -translate-x-1/2 bg-green-500 text-white px-4 py-1 rounded-full text-sm shadow hover:bg-green-600 transition"
+              className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-green-600 text-white px-6 py-2 rounded-full text-base font-semibold shadow-lg hover:bg-green-700 transition duration-300"
             >
               Acheter
             </a>
