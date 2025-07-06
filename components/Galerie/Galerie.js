@@ -16,8 +16,13 @@ const Gallery = () => {
     "/Image/Galerie.png.jpeg",
   ];
 
+<<<<<<< HEAD
   // Lien WhatsApp de base (à personnaliser avec votre numéro WhatsApp)
   const whatsappLink = "https://wa.me/33612345678?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9(e)%20par%20cette%20oeuvre.";
+=======
+  // Lien WhatsApp de base
+  const whatsappLink = "https://wa.me/22790096530?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9(e)%20par%20cette%20oeuvre.";
+>>>>>>> 0ac806379d3b96801dc1e031579a1e0dbb0df6f9
 
   return (
     <section id="Galerie" className="min-h-screen container mx-auto py-12 px-4">
@@ -38,7 +43,11 @@ const Gallery = () => {
               href={whatsappLink}
               target="_blank"
               rel="noopener noreferrer"
+<<<<<<< HEAD
               className="absolute bottom-2 left-1/2 transform -translate-x-1/2 bg-green-500 text-white px-4 py-1 rounded-full text-sm shadow hover:bg-green-600 transition"
+=======
+              className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-green-600 text-white px-6 py-2 rounded-full text-base font-semibold shadow-lg hover:bg-green-700 transition duration-300"
+>>>>>>> 0ac806379d3b96801dc1e031579a1e0dbb0df6f9
             >
               Acheter
             </a>
