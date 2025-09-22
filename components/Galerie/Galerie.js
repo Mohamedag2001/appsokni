@@ -17,7 +17,7 @@ const Gallery = () => {
   ];
 
   const whatsappLink =
-    "https://wa.me/22790096530?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9(e)%20par%20cette%20oeuvre.";
+    "https://wa.me/22790096530?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9(e)%20par%20cette%20robe.";
 
   return (
     <section id="Galerie" className="min-h-screen container mx-auto py-12 px-4">
