@@ -14,7 +14,7 @@ function Banner() {
           className="w-24 h-24 mx-auto mb-4 rounded-full"
         />
         <h2 className="text-4xl font-bold mb-2 text-[#e1c340]">
-          9 Ans d&apos;Expérience
+          10 Ans d&apos;Expérience
         </h2>
         <h3 className="text-2xl font-semibold mb-8 text-[#e1c340]">
           Avec une Qualité Totale
