@@ -23,27 +23,14 @@ function TestimonialCarousel() {
   };
 
   const testimonials = [
-    {
-      testimonial: "Taychou couture,c est l excellence.",
-      userName: "Aicha wallet",
-      img: "",
-    },
-    {
-      testimonial: "wouah , j ai aimé votre style kel timajight.",
-      userName: "Jessica ngaissiot",
-      img: "/Image/jessica.jpg",
-    },
+   
     {
       testimonial:
         "Machallah,Taychou Couture allie l'authenticité et l elegance.",
       userName: "Mohamed Ag Aboubacrine",
       img: "/Image/mohamed.jpg",
     },
-    {
-      testimonial: "formidable, A taychou couture, le client est roi.",
-      userName: "Patrick Yems",
-      img: "/Image/patrick.jpg",
-    },
+    
     {
       testimonial: "Taychou, tu es la meilleure,Ton entreprise est un modèle de créativité et d originalité..",
       userName: "Marie-Christine Roussel-Dupuy ",
