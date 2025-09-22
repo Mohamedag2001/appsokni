@@ -41,7 +41,7 @@ const Gallery = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="absolute bottom-4 left-1/2 transform -translate-x-1/2
-                         bg-gradient-to-r from-green-400 via-emerald-500 to-indigo-600
+                         bg-gradient-to-r from-yellow-400 via-gray-400 to-stone-600
                          text-white px-6 py-3 rounded-full text-sm sm:text-base font-semibold
                          shadow-2xl backdrop-blur-md border border-white/20
                          flex items-center gap-3
